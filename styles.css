@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+* 
+/* {
+    padding: 0;
+    margin: 0;
+} */
+
+body 
+    {
+    background-color:  rgb(255, 173, 173);
+    color:black;
+    font-size: 16px;
+    font-weight: normal;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font: normal 16px font-family: 'Roboto', sans-serif; */
+    }
+a 
+    {
+    
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+    }
+a:hover 
+    {
+    text-decoration: underline;
+    }
+a:active 
+    {
+    color: blue;
+    }
+a:visited 
+    {
+    color: black;
+    text-decoration: line-through;
+    }
+.info 
+    {
+    display: flex;
+   margin-bottom: 20px;
+    }
+
+    @media (max-width: 700px)
+    {
+        .info {
+            display: block;
+            text-align: center;
+        }
+        
+
+    }
+.info-text{
+    margin-left: 40px;
+
+}
+.info-text h4 {
+    margin-bottom: 10px;
+
+}
+.photo 
+    {
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px black;
+    }
+.info h1
+{
+    font-style: italic;
+}
+.info h4
+{
+    padding-left: 15px;
+}
+.info p 
+    {
+    color: rgb(22, 22, 22);
+    margin: 0;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: none;
+    /* text-transform: capitalize ; */
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    }
+/*box model */
+.container
+    {
+    max-width: 85%;
+    margin: auto;
+    padding-top: 30px;
+    }
+/* .social {
+    background: green; */
+   /*  padding: 15px; */
+    /* padding: 15px 40px; */
+     /*  padding: 15px 20px 25px 30px; */
+     /* padding-top: 15px;
+     padding-right: 20px;
+     padding-bottom: 25px;
+     padding-left: 30px;
+     margin: 20px;
+     border: 5px solid red; */
+     /* border-bottom-style: dotted;
+     border-top-width: 15px;
+     border-right-color: blue; */
+
+/* } */
+
+/* .box-model > div
+{
+float: left;
+background: black;
+height: 200px;
+border: 4px solid red;
+width: 25%;
+box-sizing: bor;
+} */
+.bg-yellow
+    {
+    background: #f0e7b9;
+    }
+.bg-green
+    {
+    background: #bdf1c1; 
+    
+    }
+.bg-blue
+    {
+    background: #6768b1;  
+    }
+.vk ul
+    {
+   padding: 20px; 
+    }
+.bg-rosybrown
+    {
+    background: #f1caca;  
+    }
+.card 
+    {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    }
+.card h2 
+    {
+    margin-bottom: 10px;
+    }
+.list 
+    {
+    padding: 15px;
+    }
+.list li
+    {
+    color: rgb(34, 34, 34);
+    margin-bottom: 10px;  
+    }
+.table 
+    {
+    width: auto;
+    }
+.table th 
+    {
+  padding-right: 80px;
+    }   
+.table td 
+    {
+    padding-bottom: 10px;
+    }
+.table td:nth-child(2), 
+.table td:nth-child(3) 
+    {
+    color:rgb(37, 37, 37)
+    }
+.link-list 
+    {
+    list-style: none;
+    padding: 0;
+    }
+.link-list{
+    margin-bottom: 10px;
+    /* padding-bottom: 5px; */
+    border-bottom: 1px solid gray;
+}
+.contact h2 
+{
+ text-align: center;
+
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    
+}
+
+.form-group input,
+.form-group textarea
+{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+.row > .form-group:last-child {
+    margin-right: 0;
+}
+
+.btn {
+    background-color: #111;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+    
+}
+
+/* Position */
+
+/* .position { */
+    /* position: relative;
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px; */
+
+
+/* } */
+/* .box
+{
+    position: absolute;
+    position: fixed ;
+    border-radius: 100%;
+    bottom: 50px;
+    right: 50px;
+    width: 75px;
+    height: 75px;
+    background: lightblue;
+    
+}
+.box input 
+{
+    padding-bottom: 10px;
+    margin: 20px 15px 10px 15px ;
+    border: 1px solid black;
+    
+    
+}
+ */
